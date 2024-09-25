@@ -1,0 +1,26 @@
+.profile {
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.aboutme{
+    border-start-start-radius: 5%;
+    border-end-end-radius: 3%;
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateY(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-shake {
+
+  animation: shake 5s ease-in-out infinite; /* Infinite loop */
+  animation-delay: 2s; /* Starts after 5 seconds */
+}
