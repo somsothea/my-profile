@@ -26,7 +26,7 @@ const messages = {
     WhyUs: 'ជ្រើសយើង',
     Repo: 'រ៉េប៉ូ',
     Login: 'ចូលប្រើ',
-    Portfolio: 'ផលប័ត្រ',
+    Portfolio: 'ផតហ្វូល្យូ',
     Testimony: 'មតិអតិថិជន',
     Contact: 'ទំនាក់ទំនង',
     eBook: 'សៀវភៅ​អេឡិចត្រូនិច'
