@@ -10,7 +10,7 @@
                 <p class="lead">Master’s Degree in Business Administration and Bachelor of Computer Science, keen on stirring up creative mind and information into computer projects and working on IT Solution & Trade Consultation in Cambodia.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                   <a href="https://t.me/khlinkCloud" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Telegram Chat</button></a>
-                  <a href="@/docs/somsothea_cv.pdf" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Download CV</button></a>
+                  <a href="./docs/somsothea_cv.pdf" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Download CV</button></a>
                 </div>
               </div>
             </div>
