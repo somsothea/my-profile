@@ -5,6 +5,7 @@
                 <p class="lead">
                     This is a powerful Real time book data retrival API that fetches the top books for NY times with book Title, Image, Description, Author, Publisher, Amazon Url, Isbn and Book rank.</p>
         </div>
+        <br>
         <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 g-4">
             <eBooksCard
             v-for="(item, index) in books"
