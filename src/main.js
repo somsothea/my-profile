@@ -5,6 +5,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import Home from '@/pages/Home.vue'
 import Service from '@/pages/Service.vue'
 import Portfolio from '@/pages/Portfolio.vue'
+import eBooks from '@/pages/eBooks.vue'
 import Testimony   from '@/pages/Testimony.vue'
 import About from '@/pages/About.vue'
 import Contact from '@/pages/Contact.vue'
@@ -16,6 +17,7 @@ const routes = [
     {path: '/', component: Home},
     {path: '/service', component: Service},
     {path: '/portfolio', component: Portfolio},
+    {path: '/eBook', component: eBooks},
     {path: '/testimony', component: Testimony},
     {path: '/about', component: About},
     {path: '/contact', component: Contact},

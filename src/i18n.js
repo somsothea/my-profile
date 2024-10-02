@@ -14,7 +14,8 @@ const messages = {
     Login: 'LOGIN',
     Portfolio: 'PORTFOLIO',
     Testimony: 'TESTIMONY',
-    Contact: 'CONTACT'
+    Contact: 'CONTACT',
+    eBook: 'eBOOKS'
   },
   khm: {
     Home: 'ទំព័រដើម',
@@ -27,7 +28,8 @@ const messages = {
     Login: 'ចូលប្រើ',
     Portfolio: 'ផលប័ត្រ',
     Testimony: 'មតិអតិថិជន',
-    Contact: 'ទំនាក់ទំនង'
+    Contact: 'ទំនាក់ទំនង',
+    eBook: 'សៀវភៅ​អេឡិចត្រូនិច'
   }
 }
 

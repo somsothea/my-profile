@@ -10,10 +10,9 @@
           <ul class="nav nav-pills">
             <li class="nav-item"><router-link to="/" class="nav-link" :class="{active: $route.path == '/'}" aria-current="page">{{$t('Home')}}</router-link></li>
             <li class="nav-item"><router-link to="/service" class="nav-link" :class="{active: $route.path == '/service'}">{{$t('Services')}}</router-link></li>
-            <li class="nav-item"><router-link to="/portfolio" class="nav-link" :class="{active: $route.path == '/portfolio'}">{{$t('Portfolio')}}</router-link></li>
-            <li class="nav-item"><router-link to="/testimony" class="nav-link" :class="{active: $route.path == '/testimony'}">{{$t('Testimony')}}</router-link></li>
-            <li class="nav-item"><router-link to="/about" class="nav-link" :class="{active: $route.path == '/about'}">{{$t('About')}}</router-link></li>
-            <li class="nav-item"><router-link to="/contact" class="nav-link" :class="{active: $route.path == '/contact'}">{{$t('Contact')}}</router-link></li>
+            <li class="nav-item"><router-link to="/portfolio" class="nav-link" :class="{active: $route.path == '/portfolio'}">{{$t('Portfolio')}}</router-link></li>           
+            <li class="nav-item"><router-link to="/eBook" class="nav-link" :class="{active: $route.path == '/eBook'}">{{$t('eBook')}}</router-link></li>
+            <li class="nav-item"><router-link to="/about" class="nav-link" :class="{active: $route.path == '/about'}">{{$t('About')}}</router-link></li>         
             <li class="navbar-brand"><img src="images/cambodia.png" @click="changeLocale('khm')" width="25"/></li>
             <li class="navbar-brand"><img src="images/usa.png" @click="changeLocale('en')" width="25"/></li>
           </ul>

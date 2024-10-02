@@ -1,22 +1,20 @@
 <template>
     <Header/>
-    <div style="margin-top: 40px;">&nbsp;</div>
-    <About/>
-    <Contact/>
+    <div style="margin-top: 20px;">&nbsp;</div>
+    <eBooks/>
     <Footer/>
 </template>
 <script>
 import Header from '@/components/Header.vue';
-import About from '@/components/About.vue';
+import eBooks from '@/components/eBooks.vue';
 import Footer from '@/components/Footer.vue';
-import Contact from '@/components/Contact.vue';
+
 
 export default{
     components:{
         Header,
-        About,
+        eBooks,
         Footer,
-        Contact
     }
 }
 </script>
